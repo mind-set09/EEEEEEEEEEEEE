@@ -55,7 +55,8 @@ main {
 }
 
 .hero h1 {
-  font-size: 2.5em;
+  font-size: 3em;
+  margin-bottom: 10px;
 }
 
 .hero p {
@@ -70,34 +71,6 @@ main {
   color: white;
   text-decoration: none;
   border-radius: 5px;
-}
-
-.features {
-  background-color: #1a1a1a;
-  padding: 100px 0;
-  text-align: center;
-}
-
-.feature {
-  margin: 20px;
-  padding: 20px;
-  background-color: #333;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-.feature img {
-  max-width: 100px;
-  margin-bottom: 10px;
-}
-
-.feature h2 {
-  font-size: 1.5em;
-  margin-bottom: 10px;
-}
-
-.feature p {
-  font-size: 1.1em;
 }
 
 footer {
