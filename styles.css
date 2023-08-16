@@ -1,50 +1,78 @@
-/* Global styles */
-
 body {
-  margin: 0;
   font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-h2 {
-  text-align: center; 
-}
-
-/* Form styles */
-
-input[type="text"],
-input[type="password"] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
-
-button {
-  background-color: #4CAF50;
+header {
+  background-color: #333;
   color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
+  padding: 10px 0;
 }
 
-/* Container styles */
-
-.container {
-  padding: 25px;
-  background-color: lightgrey;  
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-/* Responsive layout */
+.logo img {
+  width: 50px;
+  height: 50px;
+}
 
-@media screen and (min-width: 600px) {
+nav ul {
+  list-style: none;
+  display: flex;
+}
 
-  .container {
-    width: 50%;
-    margin: 0 auto;
-  }
-  
+nav ul li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.auth a {
+  color: #66cdaa;
+  margin-left: 20px;
+}
+
+main {
+  background-image: url("background-image.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #66cdaa;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
 }
