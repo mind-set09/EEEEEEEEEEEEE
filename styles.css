@@ -1,3 +1,5 @@
+/* Global styles */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -5,6 +7,8 @@ body {
   background-color: #121212; /* Dark background */
   color: #fff;
 }
+
+/* Header styles */
 
 header {
   background-color: #000;
@@ -21,29 +25,9 @@ nav {
   padding: 0 20px;
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
-}
+/* ... (Rest of the navigation styles) ... */
 
-nav ul li {
-  margin-right: 20px;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-}
-
-.auth a {
-  color: #66cdaa;
-  margin-left: 20px;
-}
-
-.logo img {
-  width: 200px; /* Adjust the width as needed */
-  height: auto;
-}
+/* Main content styles */
 
 main {
   text-align: center;
@@ -60,31 +44,9 @@ main {
   margin: 0 auto;
 }
 
-.hero h1 {
-  font-size: 3em;
-  margin-bottom: 10px;
-}
+/* ... (Rest of the hero section styles) ... */
 
-.hero p {
-  font-size: 1.2em;
-  margin-bottom: 30px;
-}
-
-.cta-button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #66cdaa;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-footer {
-  background-color: #000;
-  color: white;
-  text-align: center;
-  padding: 10px 0;
-}
+/* Login form styles */
 
 .container {
   background-color: #ffffff;
@@ -98,15 +60,17 @@ footer {
 
 .login-form {
   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .login-form .input-group {
+  width: 100%;
   margin-bottom: 15px;
 }
 
 .login-form label {
-  display: block;
-  margin-bottom: 5px;
   font-weight: bold;
 }
 
