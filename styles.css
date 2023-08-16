@@ -40,24 +40,32 @@ nav a {
   margin-left: 20px;
 }
 
-.logo img {
-  width: 1200px; /* Set the logo width to 800px */
-  height: auto; /* Automatically adjust the height */
-  display: block;
-  margin: 0 auto; /* Center the logo horizontally */
+.logo {
+  text-align: center;
+  padding-top: 20px;
 }
 
+.logo img {
+  width: 800px;
+  max-width: 100%;
+  height: auto;
+}
 
 main {
   text-align: center;
 }
 
 .hero {
-  padding: 150px 0; /* Increased padding for spacing */
+  padding: 150px 0;
   background-image: url("background-image.jpg");
   background-size: cover;
   background-position: center;
   color: white;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .hero h1 {
