@@ -2,12 +2,12 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #1a1a1a;
+  background-color: #121212; /* Dark background */
   color: #fff;
 }
 
 header {
-  background-color: #222;
+  background-color: #000;
   color: white;
   padding: 15px 0;
 }
@@ -19,11 +19,6 @@ nav {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-}
-
-.logo img {
-  width: 100px;
-  height: 100px;
 }
 
 nav ul {
@@ -45,13 +40,23 @@ nav a {
   margin-left: 20px;
 }
 
+.logo img {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Center the logo horizontally */
+}
+
 main {
+  text-align: center;
+}
+
+.hero {
+  padding: 150px 0; /* Increased padding for spacing */
   background-image: url("background-image.jpg");
   background-size: cover;
   background-position: center;
   color: white;
-  padding: 100px 0;
-  text-align: center;
 }
 
 .hero h1 {
@@ -74,7 +79,7 @@ main {
 }
 
 footer {
-  background-color: #222;
+  background-color: #000;
   color: white;
   text-align: center;
   padding: 10px 0;
