@@ -2,12 +2,14 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #1a1a1a;
+  color: #fff;
 }
 
 header {
-  background-color: #333;
+  background-color: #222;
   color: white;
-  padding: 10px 0;
+  padding: 15px 0;
 }
 
 nav {
@@ -20,8 +22,8 @@ nav {
 }
 
 .logo img {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
 }
 
 nav ul {
@@ -70,8 +72,36 @@ main {
   border-radius: 5px;
 }
 
-footer {
+.features {
+  background-color: #1a1a1a;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.feature {
+  margin: 20px;
+  padding: 20px;
   background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.feature img {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+.feature h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 1.1em;
+}
+
+footer {
+  background-color: #222;
   color: white;
   text-align: center;
   padding: 10px 0;
