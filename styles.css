@@ -41,11 +41,12 @@ nav a {
 }
 
 .logo img {
-  width: 600px;
-  height: auto;
+  width: 1200px; /* Set the logo width to 800px */
+  height: auto; /* Automatically adjust the height */
   display: block;
   margin: 0 auto; /* Center the logo horizontally */
 }
+
 
 main {
   text-align: center;
