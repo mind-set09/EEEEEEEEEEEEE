@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Minecraft Server Hosting</title>
-  <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PixelPlayground - Minecraft Server Hosting</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
@@ -28,9 +28,19 @@
   <main>
     <section class="hero">
       <div class="hero-content">
-        <h1>Start Your Minecraft Adventure!</h1>
-        <p>Host your own Minecraft server and play with friends.</p>
-        <a href="register.html" class="cta-button">Get Started</a>
+        <h1>Welcome to PixelPlayground</h1>
+        <form class="login-form">
+          <div class="input-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+          </div>
+          <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+          </div>
+          <button type="submit" class="btn">Log In</button>
+        </form>
+        <p>Don't have an account? <a href="#">Sign Up</a></p>
       </div>
     </section>
   </main>
